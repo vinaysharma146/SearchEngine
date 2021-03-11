@@ -40,14 +40,19 @@ const baseUrl = ['https://www.chitkara.edu.in/']
 // *********************************
 
 
-exclude = [".ico", ".jpg", ".png", ".css", ".js", ".xml", ".php"]
+exclude = [".ico", ".jpg", ".png", ".css", ".js", ".xml", ".php",'oembed','/feed','?p=']
 
-function checkLink(link) {
+async function checkLink(url) {
     for (x in exclude) {
-        if (link.includes(exclude[x]))
+        if (url.includes(exclude[x]))
             return false
     }
-    if (!link.includes(baseUrl[0]))
+    if (!url.includes(baseUrl[0]))
+        return false
+
+    const query = urlDetails.find({url_list:url})
+    const result = await query.exec()
+    if(result.length!=0)
         return false
     return true
 }
@@ -77,14 +82,14 @@ function getNextLink(str, ptr) {
     return data;
 }
 
-function extractLinks(str, max_url_count) {
+async function extractLinks(str, max_url_count) {
 
     var ptr = 0;
     cnt = 0;
     var ret_list = []
     while (ptr < str.length) {
         data = getNextLink(str, ptr)
-        if (checkLink(data.link)) {
+        if (await checkLink(data.link)) {
             cnt++
             ret_list.push(data.link)
         }
@@ -154,8 +159,11 @@ async function start() {
         await saveFirstlevel()
         level++
     }
-    else if(level == maxLevel)
+    else if(level == maxLevel){
+        console.log('Crawler Completed')
         exit(0);
+    }
+    console.log(level)
 
     currentLevelLinks = await getCurrentLevelLinks(level)
     //console.log(currentLevelLinks)
@@ -172,7 +180,7 @@ async function start() {
                     }
                     await response.text().then(async function(data){
                         var plain_string=data.replace(/\s/g, "")
-                        var url_list = extractLinks(plain_string, maxExtractedUrl)
+                        var url_list = await extractLinks(plain_string, maxExtractedUrl)
                         if(currentLevelLinks.length-1 == i){
                                 completed = 1
                             }
@@ -184,6 +192,6 @@ async function start() {
         start();
 }
 
-var maxExtractedUrl = 10
+var maxExtractedUrl = 100
 var maxLevel = 3;
 start();
