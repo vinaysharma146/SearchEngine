@@ -26,7 +26,8 @@ var Schema = mongoose.Schema;
 var url_schema = Schema({
     level: Number,
     url_list: [String],
-    completed: Number
+    completed: Number,
+    readTill : {type: Number, default: 0}
 });
 
 var urlDetails = mongoose.model("url_details", url_schema, "url_details");
@@ -126,8 +127,9 @@ async function getCurrentLevelLinks(level) {
 }
 
 async function saveNextLevelLinks(url_list, level, completed) {
-    query = urlDetails.findOne({ level: level + 1 })
-    result = await query.exec()
+    let query = urlDetails.findOne({level: level + 1})
+    let result = await query.exec()
+    let old_url_list;
     if (result == null) {
         var newUrlDetails = new urlDetails({
             level: level + 1,
@@ -135,13 +137,12 @@ async function saveNextLevelLinks(url_list, level, completed) {
             completed: 0
         })
         await newUrlDetails.save()
-    }
-    else {
+    } else {
         old_url_list = result.url_list
         for (url of url_list) {
             old_url_list.push(url)
         }
-        query = urlDetails.updateOne({ level: level + 1 }, { $set: { url_list: old_url_list } })
+        query = urlDetails.updateOne({level: level + 1}, {$set: {url_list: old_url_list}})
         result = await query.exec()
     }
     if (completed == 1) {

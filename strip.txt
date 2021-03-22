@@ -1,0 +1,2078 @@
+ 
+
+
+
+
+
+
+	
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121606817-1');
+
+
+Punjab Institute of Management &amp; Technology
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://pimt.in/#website","url":"https://pimt.in/","name":"","potentialAction":{"@type":"SearchAction","target":"https://pimt.in/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://pimt.in/#primaryimage","url":"https://pimt.in/wp-content/uploads/2020/12/bca-leet-distance-learning-college-in-punjab.jpg","width":700,"height":583,"caption":"BCA LEET Distance Learning College in Punjab"},{"@type":"WebPage","@id":"https://pimt.in/#webpage","url":"https://pimt.in/","inLanguage":"en-US","name":"Punjab Institute of Management &amp; Technology","isPartOf":{"@id":"https://pimt.in/#website"},"primaryImageOfPage":{"@id":"https://pimt.in/#primaryimage"},"datePublished":"2015-05-20T11:45:57+00:00","dateModified":"2021-03-18T12:51:06+00:00","description":"PIMT A Leading School of Management in the heart of Punjab's Industrial Centre, Mandi .... PIMT hosted three days Inter College Table Tennis tournament in ..."}]}
+
+
+
+
+
+
+		
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/pimt.in\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.6"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+	
+
+
+
+
+
+
+.woocommerce form .form-row .required { visibility: visible; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Popup Google Fonts */
+@import url('//fonts.googleapis.com/css?family=Montserrat:100');
+
+/* Popup Theme 6: Default Theme */
+.pum-theme-6, .pum-theme-default-theme { background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-6 .pum-container, .pum-theme-default-theme .pum-container { padding: 18px; border-radius: px; border: 1px none #000000; box-shadow: 1px 1px 3px px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 249, 249, 249, 1.00 ) } 
+.pum-theme-6 .pum-title, .pum-theme-default-theme .pum-title { color: #000000; text-align: left; text-shadow: px px px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; font-style: normal; line-height: 36px } 
+.pum-theme-6 .pum-content, .pum-theme-default-theme .pum-content { color: #8c8c8c; font-family: inherit; font-weight: 400; font-style: inherit } 
+.pum-theme-6 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: px; bottom: auto; top: px; padding: 8px; color: #ffffff; font-family: inherit; font-weight: 400; font-size: 12px; font-style: inherit; line-height: 36px; border: 1px none #ffffff; border-radius: px; box-shadow: 1px 1px 3px px rgba( 2, 2, 2, 0.23 ); text-shadow: px px px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) } 
+
+/* Popup Theme 7: Light Box */
+.pum-theme-7, .pum-theme-lightbox { background-color: rgba( 0, 0, 0, 0.60 ) } 
+.pum-theme-7 .pum-container, .pum-theme-lightbox .pum-container { padding: 18px; border-radius: 3px; border: 8px solid #000000; box-shadow: 0px 0px 30px 0px rgba( 2, 2, 2, 1.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-7 .pum-title, .pum-theme-lightbox .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-7 .pum-content, .pum-theme-lightbox .pum-content { color: #000000; font-family: inherit; font-weight: 100 } 
+.pum-theme-7 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close { position: absolute; height: 26px; width: 26px; left: auto; right: -13px; bottom: auto; top: -13px; padding: 0px; color: #ffffff; font-family: Arial; font-weight: 100; font-size: 24px; line-height: 24px; border: 2px solid #ffffff; border-radius: 26px; box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 1.00 ) } 
+
+/* Popup Theme 8: Enterprise Blue */
+.pum-theme-8, .pum-theme-enterprise-blue { background-color: rgba( 0, 0, 0, 0.70 ) } 
+.pum-theme-8 .pum-container, .pum-theme-enterprise-blue .pum-container { padding: 28px; border-radius: 5px; border: 1px none #000000; box-shadow: 0px 10px 25px 4px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-8 .pum-title, .pum-theme-enterprise-blue .pum-title { color: #315b7c; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 34px; line-height: 36px } 
+.pum-theme-8 .pum-content, .pum-theme-enterprise-blue .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-8 .pum-content + .pum-close, .pum-theme-enterprise-blue .pum-content + .pum-close { position: absolute; height: 28px; width: 28px; left: auto; right: 8px; bottom: auto; top: 8px; padding: 4px; color: #ffffff; font-family: Times New Roman; font-weight: 100; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 42px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 49, 91, 124, 1.00 ) } 
+
+/* Popup Theme 9: Hello Box */
+.pum-theme-9, .pum-theme-hello-box { background-color: rgba( 0, 0, 0, 0.75 ) } 
+.pum-theme-9 .pum-container, .pum-theme-hello-box .pum-container { padding: 30px; border-radius: 80px; border: 14px solid #81d742; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-9 .pum-title, .pum-theme-hello-box .pum-title { color: #2d2d2d; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Montserrat; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-9 .pum-content, .pum-theme-hello-box .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-9 .pum-content + .pum-close, .pum-theme-hello-box .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: -30px; bottom: auto; top: -30px; padding: 0px; color: #2d2d2d; font-family: Times New Roman; font-weight: 100; font-size: 32px; line-height: 28px; border: 1px none #ffffff; border-radius: 28px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+
+/* Popup Theme 10: Cutting Edge */
+.pum-theme-10, .pum-theme-cutting-edge { background-color: rgba( 0, 0, 0, 0.50 ) } 
+.pum-theme-10 .pum-container, .pum-theme-cutting-edge .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 0px 10px 25px 0px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 30, 115, 190, 1.00 ) } 
+.pum-theme-10 .pum-title, .pum-theme-cutting-edge .pum-title { color: #ffffff; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Sans-Serif; font-weight: 100; font-size: 26px; line-height: 28px } 
+.pum-theme-10 .pum-content, .pum-theme-cutting-edge .pum-content { color: #ffffff; font-family: inherit; font-weight: 100 } 
+.pum-theme-10 .pum-content + .pum-close, .pum-theme-cutting-edge .pum-content + .pum-close { position: absolute; height: 24px; width: 24px; left: auto; right: 0px; bottom: auto; top: 0px; padding: 0px; color: #1e73be; font-family: Times New Roman; font-weight: 100; font-size: 32px; line-height: 24px; border: 1px none #ffffff; border-radius: 0px; box-shadow: -1px 1px 1px 0px rgba( 2, 2, 2, 0.10 ); text-shadow: -1px 1px 1px rgba( 0, 0, 0, 0.10 ); background-color: rgba( 238, 238, 34, 1.00 ) } 
+
+/* Popup Theme 11: Framed Border */
+.pum-theme-11, .pum-theme-framed-border { background-color: rgba( 255, 255, 255, 0.50 ) } 
+.pum-theme-11 .pum-container, .pum-theme-framed-border .pum-container { padding: 18px; border-radius: 0px; border: 20px outset #dd3333; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.97 ) inset; background-color: rgba( 255, 251, 239, 1.00 ) } 
+.pum-theme-11 .pum-title, .pum-theme-framed-border .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-11 .pum-content, .pum-theme-framed-border .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-11 .pum-content + .pum-close, .pum-theme-framed-border .pum-content + .pum-close { position: absolute; height: 20px; width: 20px; left: auto; right: -20px; bottom: auto; top: -20px; padding: 0px; color: #ffffff; font-family: Tahoma; font-weight: 700; font-size: 16px; line-height: 18px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 0.55 ) } 
+
+/* Popup Theme 5683: Default Theme */
+.pum-theme-5683, .pum-theme-default-theme-2 { background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-5683 .pum-container, .pum-theme-default-theme-2 .pum-container { padding: 18px; border-radius: px; border: 1px none #000000; box-shadow: 1px 1px 3px px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 249, 249, 249, 1.00 ) } 
+.pum-theme-5683 .pum-title, .pum-theme-default-theme-2 .pum-title { color: #000000; text-align: left; text-shadow: px px px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; font-style: normal; line-height: 36px } 
+.pum-theme-5683 .pum-content, .pum-theme-default-theme-2 .pum-content { color: #8c8c8c; font-family: inherit; font-weight: 400; font-style: inherit } 
+.pum-theme-5683 .pum-content + .pum-close, .pum-theme-default-theme-2 .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: px; bottom: auto; top: px; padding: 8px; color: #ffffff; font-family: inherit; font-weight: 400; font-size: 12px; font-style: inherit; line-height: 36px; border: 1px none #ffffff; border-radius: px; box-shadow: 1px 1px 3px px rgba( 2, 2, 2, 0.23 ); text-shadow: px px px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) } 
+
+/* Popup Theme 5684: Light Box */
+.pum-theme-5684, .pum-theme-lightbox-2 { background-color: rgba( 0, 0, 0, 0.60 ) } 
+.pum-theme-5684 .pum-container, .pum-theme-lightbox-2 .pum-container { padding: 18px; border-radius: 3px; border: 8px solid #000000; box-shadow: 0px 0px 30px 0px rgba( 2, 2, 2, 1.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-5684 .pum-title, .pum-theme-lightbox-2 .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-5684 .pum-content, .pum-theme-lightbox-2 .pum-content { color: #000000; font-family: inherit; font-weight: 100 } 
+.pum-theme-5684 .pum-content + .pum-close, .pum-theme-lightbox-2 .pum-content + .pum-close { position: absolute; height: 26px; width: 26px; left: auto; right: -13px; bottom: auto; top: -13px; padding: 0px; color: #ffffff; font-family: Arial; font-weight: 100; font-size: 24px; line-height: 24px; border: 2px solid #ffffff; border-radius: 26px; box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 1.00 ) } 
+
+/* Popup Theme 5688: Enterprise Blue */
+.pum-theme-5688, .pum-theme-enterprise-blue-4 { background-color: rgba( 0, 0, 0, 0.70 ) } 
+.pum-theme-5688 .pum-container, .pum-theme-enterprise-blue-4 .pum-container { padding: 28px; border-radius: 5px; border: 1px none #000000; box-shadow: 0px 10px 25px 4px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-5688 .pum-title, .pum-theme-enterprise-blue-4 .pum-title { color: #315b7c; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 34px; line-height: 36px } 
+.pum-theme-5688 .pum-content, .pum-theme-enterprise-blue-4 .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-5688 .pum-content + .pum-close, .pum-theme-enterprise-blue-4 .pum-content + .pum-close { position: absolute; height: 28px; width: 28px; left: auto; right: 8px; bottom: auto; top: 8px; padding: 4px; color: #ffffff; font-family: Times New Roman; font-weight: 100; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 42px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 49, 91, 124, 1.00 ) } 
+
+/* Popup Theme 5689: Hello Box */
+.pum-theme-5689, .pum-theme-hello-box-4 { background-color: rgba( 0, 0, 0, 0.75 ) } 
+.pum-theme-5689 .pum-container, .pum-theme-hello-box-4 .pum-container { padding: 30px; border-radius: 80px; border: 14px solid #81d742; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-5689 .pum-title, .pum-theme-hello-box-4 .pum-title { color: #2d2d2d; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Montserrat; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-5689 .pum-content, .pum-theme-hello-box-4 .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-5689 .pum-content + .pum-close, .pum-theme-hello-box-4 .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: -30px; bottom: auto; top: -30px; padding: 0px; color: #2d2d2d; font-family: Times New Roman; font-weight: 100; font-size: 32px; line-height: 28px; border: 1px none #ffffff; border-radius: 28px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+
+/* Popup Theme 5690: Cutting Edge */
+.pum-theme-5690, .pum-theme-cutting-edge-4 { background-color: rgba( 0, 0, 0, 0.50 ) } 
+.pum-theme-5690 .pum-container, .pum-theme-cutting-edge-4 .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 0px 10px 25px 0px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 30, 115, 190, 1.00 ) } 
+.pum-theme-5690 .pum-title, .pum-theme-cutting-edge-4 .pum-title { color: #ffffff; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Sans-Serif; font-weight: 100; font-size: 26px; line-height: 28px } 
+.pum-theme-5690 .pum-content, .pum-theme-cutting-edge-4 .pum-content { color: #ffffff; font-family: inherit; font-weight: 100 } 
+.pum-theme-5690 .pum-content + .pum-close, .pum-theme-cutting-edge-4 .pum-content + .pum-close { position: absolute; height: 24px; width: 24px; left: auto; right: 0px; bottom: auto; top: 0px; padding: 0px; color: #1e73be; font-family: Times New Roman; font-weight: 100; font-size: 32px; line-height: 24px; border: 1px none #ffffff; border-radius: 0px; box-shadow: -1px 1px 1px 0px rgba( 2, 2, 2, 0.10 ); text-shadow: -1px 1px 1px rgba( 0, 0, 0, 0.10 ); background-color: rgba( 238, 238, 34, 1.00 ) } 
+
+/* Popup Theme 5691: Framed Border */
+.pum-theme-5691, .pum-theme-framed-border-4 { background-color: rgba( 255, 255, 255, 0.50 ) } 
+.pum-theme-5691 .pum-container, .pum-theme-framed-border-4 .pum-container { padding: 18px; border-radius: 0px; border: 20px outset #dd3333; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.97 ) inset; background-color: rgba( 255, 251, 239, 1.00 ) } 
+.pum-theme-5691 .pum-title, .pum-theme-framed-border-4 .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-5691 .pum-content, .pum-theme-framed-border-4 .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-5691 .pum-content + .pum-close, .pum-theme-framed-border-4 .pum-content + .pum-close { position: absolute; height: 20px; width: 20px; left: auto; right: -20px; bottom: auto; top: -20px; padding: 0px; color: #ffffff; font-family: Tahoma; font-weight: 700; font-size: 16px; line-height: 18px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 0.55 ) } 
+
+/* Popup Theme 4838: Default Theme */
+.pum-theme-4838, .pum-theme-default-theme-3 { background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-4838 .pum-container, .pum-theme-default-theme-3 .pum-container { padding: 18px; border-radius: px; border: 1px none #000000; box-shadow: 1px 1px 3px px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 249, 249, 249, 1.00 ) } 
+.pum-theme-4838 .pum-title, .pum-theme-default-theme-3 .pum-title { color: #000000; text-align: left; text-shadow: px px px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; font-style: normal; line-height: 36px } 
+.pum-theme-4838 .pum-content, .pum-theme-default-theme-3 .pum-content { color: #8c8c8c; font-family: inherit; font-weight: 400; font-style: inherit } 
+.pum-theme-4838 .pum-content + .pum-close, .pum-theme-default-theme-3 .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: px; bottom: auto; top: px; padding: 8px; color: #ffffff; font-family: inherit; font-weight: 400; font-size: 12px; font-style: inherit; line-height: 36px; border: 1px none #ffffff; border-radius: px; box-shadow: 1px 1px 3px px rgba( 2, 2, 2, 0.23 ); text-shadow: px px px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) } 
+
+/* Popup Theme 4839: Light Box */
+.pum-theme-4839, .pum-theme-lightbox-3 { background-color: rgba( 0, 0, 0, 0.60 ) } 
+.pum-theme-4839 .pum-container, .pum-theme-lightbox-3 .pum-container { padding: 18px; border-radius: 3px; border: 8px solid #000000; box-shadow: 0px 0px 30px 0px rgba( 2, 2, 2, 1.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-4839 .pum-title, .pum-theme-lightbox-3 .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-4839 .pum-content, .pum-theme-lightbox-3 .pum-content { color: #000000; font-family: inherit; font-weight: 100 } 
+.pum-theme-4839 .pum-content + .pum-close, .pum-theme-lightbox-3 .pum-content + .pum-close { position: absolute; height: 26px; width: 26px; left: auto; right: -13px; bottom: auto; top: -13px; padding: 0px; color: #ffffff; font-family: Arial; font-weight: 100; font-size: 24px; line-height: 24px; border: 2px solid #ffffff; border-radius: 26px; box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 1.00 ) } 
+
+/* Popup Theme 4840: Enterprise Blue */
+.pum-theme-4840, .pum-theme-enterprise-blue-3 { background-color: rgba( 0, 0, 0, 0.70 ) } 
+.pum-theme-4840 .pum-container, .pum-theme-enterprise-blue-3 .pum-container { padding: 28px; border-radius: 5px; border: 1px none #000000; box-shadow: 0px 10px 25px 4px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-4840 .pum-title, .pum-theme-enterprise-blue-3 .pum-title { color: #315b7c; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 34px; line-height: 36px } 
+.pum-theme-4840 .pum-content, .pum-theme-enterprise-blue-3 .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-4840 .pum-content + .pum-close, .pum-theme-enterprise-blue-3 .pum-content + .pum-close { position: absolute; height: 28px; width: 28px; left: auto; right: 8px; bottom: auto; top: 8px; padding: 4px; color: #ffffff; font-family: Times New Roman; font-weight: 100; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 42px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 49, 91, 124, 1.00 ) } 
+
+/* Popup Theme 4841: Hello Box */
+.pum-theme-4841, .pum-theme-hello-box-3 { background-color: rgba( 0, 0, 0, 0.75 ) } 
+.pum-theme-4841 .pum-container, .pum-theme-hello-box-3 .pum-container { padding: 30px; border-radius: 80px; border: 14px solid #81d742; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-4841 .pum-title, .pum-theme-hello-box-3 .pum-title { color: #2d2d2d; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Montserrat; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-4841 .pum-content, .pum-theme-hello-box-3 .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-4841 .pum-content + .pum-close, .pum-theme-hello-box-3 .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: -30px; bottom: auto; top: -30px; padding: 0px; color: #2d2d2d; font-family: Times New Roman; font-weight: 100; font-size: 32px; line-height: 28px; border: 1px none #ffffff; border-radius: 28px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+
+/* Popup Theme 4842: Cutting Edge */
+.pum-theme-4842, .pum-theme-cutting-edge-3 { background-color: rgba( 0, 0, 0, 0.50 ) } 
+.pum-theme-4842 .pum-container, .pum-theme-cutting-edge-3 .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 0px 10px 25px 0px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 30, 115, 190, 1.00 ) } 
+.pum-theme-4842 .pum-title, .pum-theme-cutting-edge-3 .pum-title { color: #ffffff; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Sans-Serif; font-weight: 100; font-size: 26px; line-height: 28px } 
+.pum-theme-4842 .pum-content, .pum-theme-cutting-edge-3 .pum-content { color: #ffffff; font-family: inherit; font-weight: 100 } 
+.pum-theme-4842 .pum-content + .pum-close, .pum-theme-cutting-edge-3 .pum-content + .pum-close { position: absolute; height: 24px; width: 24px; left: auto; right: 0px; bottom: auto; top: 0px; padding: 0px; color: #1e73be; font-family: Times New Roman; font-weight: 100; font-size: 32px; line-height: 24px; border: 1px none #ffffff; border-radius: 0px; box-shadow: -1px 1px 1px 0px rgba( 2, 2, 2, 0.10 ); text-shadow: -1px 1px 1px rgba( 0, 0, 0, 0.10 ); background-color: rgba( 238, 238, 34, 1.00 ) } 
+
+/* Popup Theme 4843: Framed Border */
+.pum-theme-4843, .pum-theme-framed-border-3 { background-color: rgba( 255, 255, 255, 0.50 ) } 
+.pum-theme-4843 .pum-container, .pum-theme-framed-border-3 .pum-container { padding: 18px; border-radius: 0px; border: 20px outset #dd3333; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.97 ) inset; background-color: rgba( 255, 251, 239, 1.00 ) } 
+.pum-theme-4843 .pum-title, .pum-theme-framed-border-3 .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-4843 .pum-content, .pum-theme-framed-border-3 .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-4843 .pum-content + .pum-close, .pum-theme-framed-border-3 .pum-content + .pum-close { position: absolute; height: 20px; width: 20px; left: auto; right: -20px; bottom: auto; top: -20px; padding: 0px; color: #ffffff; font-family: Tahoma; font-weight: 700; font-size: 16px; line-height: 18px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 0.55 ) } 
+
+/* Popup Theme 5685: Light Box */
+.pum-theme-5685, .pum-theme-lightbox-2-2 {  } 
+.pum-theme-5685 .pum-container, .pum-theme-lightbox-2-2 .pum-container { padding: px; border-radius: px; border: px  ; box-shadow: px px px px rgba( 0, 0, 0, 0.00 ) } 
+.pum-theme-5685 .pum-title, .pum-theme-lightbox-2-2 .pum-title { text-shadow: px px px rgba( 0, 0, 0, 0.00 ); font-size: px; line-height: px } 
+.pum-theme-5685 .pum-content, .pum-theme-lightbox-2-2 .pum-content {  } 
+.pum-theme-5685 .pum-content + .pum-close, .pum-theme-lightbox-2-2 .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: auto; bottom: auto; top: auto; padding: px; font-size: px; line-height: px; border: px  ; border-radius: px; box-shadow: px px px px rgba( 0, 0, 0, 0.00 ); text-shadow: px px px rgba( 0, 0, 0, 0.00 ) } 
+
+/* Popup Theme 5686: Enterprise Blue */
+.pum-theme-5686, .pum-theme-enterprise-blue-2 {  } 
+.pum-theme-5686 .pum-container, .pum-theme-enterprise-blue-2 .pum-container { padding: px; border-radius: px; border: px  ; box-shadow: px px px px rgba( 0, 0, 0, 0.00 ) } 
+.pum-theme-5686 .pum-title, .pum-theme-enterprise-blue-2 .pum-title { text-shadow: px px px rgba( 0, 0, 0, 0.00 ); font-size: px; line-height: px } 
+.pum-theme-5686 .pum-content, .pum-theme-enterprise-blue-2 .pum-content {  } 
+.pum-theme-5686 .pum-content + .pum-close, .pum-theme-enterprise-blue-2 .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: auto; bottom: auto; top: auto; padding: px; font-size: px; line-height: px; border: px  ; border-radius: px; box-shadow: px px px px rgba( 0, 0, 0, 0.00 ); text-shadow: px px px rgba( 0, 0, 0, 0.00 ) } 
+
+/* Popup Theme 5687: Hello Box */
+.pum-theme-5687, .pum-theme-hello-box-2 {  } 
+.pum-theme-5687 .pum-container, .pum-theme-hello-box-2 .pum-container { padding: px; border-radius: px; border: px  ; box-shadow: px px px px rgba( 0, 0, 0, 0.00 ) } 
+.pum-theme-5687 .pum-title, .pum-theme-hello-box-2 .pum-title { text-shadow: px px px rgba( 0, 0, 0, 0.00 ); font-size: px; line-height: px } 
+.pum-theme-5687 .pum-content, .pum-theme-hello-box-2 .pum-content {  } 
+.pum-theme-5687 .pum-content + .pum-close, .pum-theme-hello-box-2 .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: auto; bottom: auto; top: auto; padding: px; font-size: px; line-height: px; border: px  ; border-radius: px; box-shadow: px px px px rgba( 0, 0, 0, 0.00 ); text-shadow: px px px rgba( 0, 0, 0, 0.00 ) } 
+
+/* Popup Theme 17: Cutting Edge */
+.pum-theme-17, .pum-theme-cutting-edge-2 {  } 
+.pum-theme-17 .pum-container, .pum-theme-cutting-edge-2 .pum-container { padding: px; border-radius: px; border: px  ; box-shadow: px px px px rgba( 0, 0, 0, 0.00 ) } 
+.pum-theme-17 .pum-title, .pum-theme-cutting-edge-2 .pum-title { text-shadow: px px px rgba( 0, 0, 0, 0.00 ); font-size: px; line-height: px } 
+.pum-theme-17 .pum-content, .pum-theme-cutting-edge-2 .pum-content {  } 
+.pum-theme-17 .pum-content + .pum-close, .pum-theme-cutting-edge-2 .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: auto; bottom: auto; top: auto; padding: px; font-size: px; line-height: px; border: px  ; border-radius: px; box-shadow: px px px px rgba( 0, 0, 0, 0.00 ); text-shadow: px px px rgba( 0, 0, 0, 0.00 ) } 
+
+/* Popup Theme 18: Framed Border */
+.pum-theme-18, .pum-theme-framed-border-2 {  } 
+.pum-theme-18 .pum-container, .pum-theme-framed-border-2 .pum-container { padding: px; border-radius: px; border: px  ; box-shadow: px px px px rgba( 0, 0, 0, 0.00 ) } 
+.pum-theme-18 .pum-title, .pum-theme-framed-border-2 .pum-title { text-shadow: px px px rgba( 0, 0, 0, 0.00 ); font-size: px; line-height: px } 
+.pum-theme-18 .pum-content, .pum-theme-framed-border-2 .pum-content {  } 
+.pum-theme-18 .pum-content + .pum-close, .pum-theme-framed-border-2 .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: auto; bottom: auto; top: auto; padding: px; font-size: px; line-height: px; border: px  ; border-radius: px; box-shadow: px px px px rgba( 0, 0, 0, 0.00 ); text-shadow: px px px rgba( 0, 0, 0, 0.00 ) } 
+
+/* Popup Theme 5072: Default Theme */
+.pum-theme-5072, .pum-theme-default-theme-2-2 {  } 
+.pum-theme-5072 .pum-container, .pum-theme-default-theme-2-2 .pum-container { padding: px; border-radius: px; border: px  ; box-shadow: px px px px rgba( 0, 0, 0, 0.00 ) } 
+.pum-theme-5072 .pum-title, .pum-theme-default-theme-2-2 .pum-title { text-shadow: px px px rgba( 0, 0, 0, 0.00 ); font-size: px; line-height: px } 
+.pum-theme-5072 .pum-content, .pum-theme-default-theme-2-2 .pum-content {  } 
+.pum-theme-5072 .pum-content + .pum-close, .pum-theme-default-theme-2-2 .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: auto; bottom: auto; top: auto; padding: px; font-size: px; line-height: px; border: px  ; border-radius: px; box-shadow: px px px px rgba( 0, 0, 0, 0.00 ); text-shadow: px px px rgba( 0, 0, 0, 0.00 ) } 
+
+#pum-5018 {z-index: 1999999999}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+        
+				a, 
+				.tm_client strong,
+				.postmeta a:hover,
+				#sidebar ul li a:hover,
+				.blog-post h3.entry-title,
+				.sitenav ul li a:hover, 
+				.sitenav ul li.current_page_item a, 
+				.sitenav ul li:hover a.parent,
+				.hright-icon{
+					color:#f36523;
+				}
+				a.blog-more:hover,
+				.nav-links .current, 
+				.nav-links a:hover,
+				#commentform input#submit,
+				input.search-submit,
+				.nivo-controlNav a.active,
+				.blog-date .date,
+				.section-box .sec-left a,
+				#slider .top-bar .slide-button:hover,
+				a.read-more:hover,
+				#slider .top-bar .slide-button{
+					background-color:#f36523;
+				}
+				#header{
+					background-color:#ffffff;
+				}
+				.copyright-wrapper{
+					background-color:#2e2e2e;
+				}
+		
+		.woocommerce-product-gallery{ opacity: 1 !important; }
+		
+			#header{
+			background-image: url();
+			background-position: center top;
+		}
+		.logo h1 a { color:#000000;}
+		
+	
+			
+			.postmeta{
+	display:none;
+}
+#sidebar{
+	    position: -webkit-sticky;
+    position: sticky;
+    top: 15px;
+}		
+		
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+    location = 'http://pimt.in/thanks.html';
+}, false );
+
+
+
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '695112374658224');
+  fbq('track', 'PageView');
+
+
+
+
+
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+    font-weight: bold !important;
+    font-size: 13px !important;
+}
+	div#wpcs_tab_4366{
+		top: 147px !important;
+	}
+.stikyalumniform{
+	position: fixed;
+    right: -61px;
+    width: 157px;
+    top: 319px;
+    z-index: 999999;
+	-webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+	}
+	.stiky-social{
+        position: fixed;
+        right:2%;
+        bottom:2%;
+      z-index: 99999999999999999;
+    }
+    .whatsapp-message {
+    width: 46px;   
+   
+}
+
+.callme {
+    width: 46px;       
+    z-index: 99999999999999;
+    padding: 1px;
+    
+}
+
+.youtubesubscribe {
+    width: 46px;  
+}
+
+.facebooklike {
+    width: 48px; 
+}
+
+.donate-pimt{
+    position: fixed;
+    bottom:3%;
+    left: 0;
+    z-index: 9999999999;
+}
+
+.national-conference{
+    position: fixed;
+    bottom:40%;
+    left: 0;
+    z-index: 9999999999;
+}
+    .dropbtn {
+  color: white;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #4cbde0;
+  color: white;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content:hover{
+
+
+}
+
+.dropdown-content a:hover{
+background-color: red;
+color: white;
+}
+
+
+
+
+
+
+
+    
+		
+				
+			
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+
+    
+    
+    
+    
+    
+        
+            
+        
+    
+    
+
+	
+    				 Mobile No. 9356253002 | 8196053007 | FAX: 01765-24105
+                        	 enquiry@pimt.info
+            
+
+        
+
+            	
+				
+											
+
+									
+                
+            	
+						Menu
+				 						
+				
+						About Us
+
+	About Us
+	Accreditation Status
+	Anti Ragging
+	Code of Conduct
+
+
+Courses
+
+	Courses
+	
+		Regular Courses
+		Distance Courses
+	
+
+	New Courses
+	Faculty
+
+
+Admissions
+
+	Admitted Students
+	
+		AICTE
+		Non-AICTE
+		
+			BCA/BCA(LEET)
+			BBA
+			B.COM(P)
+			BMS-ATH
+			BSC-AGRI
+		
+
+	
+
+	Admissions
+	Apply Online
+
+
+Events
+
+	Current Events
+	Upcoming Events
+	
+		Conferences
+		
+			National
+			International
+		
+
+	
+
+
+
+Downloads
+
+	Job Application Form
+	Alumni Form
+	Brochures
+	
+		Pimt Brochure
+		National Conference
+	
+
+	PIMT NEWSLETTER JUNE 2020
+	MOOCS
+	
+		LEernVern
+		Sakshat
+		Swayam
+		E-PG Pathshala
+		Virtual Labs
+	
+
+	Syllabus
+	
+		Agriculture
+		Management
+		Airlines and Tourism
+		Computer
+		Application
+	
+
+
+
+Journal
+Campus
+
+	Blog
+	Activities
+
+
+Covid-19
+Placements
+Contact Us
+
+	Student Grievance
+
+
+							
+				
+                
+            
+				
+			
+				
+							
+						
+				
+				
+			
+					
+				
+				
+					
+			
+				
+					Admission open 2020-21APPLY NOW				
+															
+																
+							
+							Previous
+						
+						
+							
+							Next
+						
+												
+		
+				
+				
+						
+			
+		
+						
+			
+		
+				
+						
+				
+				
+			
+					
+				
+				
+					
+						
+				
+								
+			
+						
+				
+					INSTITUTIONS/SCHOOLS
+				
+								In the heart of Punjab’s Industrial Centre, Mandi Gobindgarh, a leading school of Management PIMT is located.
+							
+		
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+						
+				
+								
+			
+						
+				
+					BOOKS & LIBRARY
+				
+								The Library with its vast Collection of management literature and electronic resources are Key Resource of the Institute
+							
+		
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+						
+				
+								
+			
+						
+				
+					TEACHING PEDAGOGY
+				
+								With legacy of Innovation in Teaching Learning Process, Various Courses are Taught in the Institution.
+							
+		
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+						
+				
+								
+			
+						
+				
+					QUALITY CONSCIOUS
+				
+								The Philosophy of the Institution provides a framework that makes student fully Competitive & Ready to face Current Challenges
+							
+		
+				
+				
+						
+			
+		
+						
+			
+		
+				
+						
+				
+				
+			
+					
+				
+						
+				
+				
+			
+					
+				
+				
+			ANNOUNCEMENTS:		
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					Admission open 2020-21 (Apply Now)
+				
+				
+						
+			
+		
+						
+			
+		
+						
+			
+		
+						
+			
+		
+				
+						
+				
+				
+			
+					
+				
+						
+				
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+			BCA LEET (Distance Education)		
+				
+				
+				
+					
+			
+						
+						
+							
+						Read More
+		
+					
+		
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+			DCA (Distance Education)		
+				
+				
+				
+					
+			
+						
+						
+							
+						Read More
+		
+					
+		
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+			B.Com (Distance Education)		
+				
+				
+				
+					
+			
+						
+						
+							
+						Read More
+		
+					
+		
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+			BBA (Distance Education)		
+				
+				
+				
+					
+			
+						
+						
+							
+						Read More
+		
+					
+		
+				
+				
+						
+			
+		
+						
+			
+		
+				
+						
+				
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+			BCA (Distance Education)		
+				
+				
+				
+					
+			
+						
+						
+							
+						Read More
+		
+					
+		
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+			Diploma in Fire and Safety		
+				
+				
+				
+					
+			
+						
+						
+							
+						Read More
+		
+					
+		
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+			B.Sc MLS (Medical Lab Science)		
+				
+				
+				
+					
+			
+						
+						
+							
+						Read More
+		
+					
+		
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+			BCA		
+				
+				
+				
+					
+			
+						
+						
+							
+						Read More
+		
+					
+		
+				
+				
+						
+			
+		
+						
+			
+		
+				
+						
+				
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+			B.sc (Hons)Agriculture		
+				
+				
+				
+					
+			
+						
+						
+							
+						Read More
+		
+					
+		
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+			MBA Program		
+				
+				
+				
+					
+			
+						
+						
+							
+						Read More
+		
+					
+		
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+			BTTM		
+				
+				
+				
+					
+			
+						
+						
+							
+						Read More
+		
+					
+		
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+			B.Com		
+				
+				
+				
+					
+			
+						
+						
+							
+						Read More
+		
+					
+		
+				
+				
+						
+			
+		
+						
+			
+		
+				
+						
+				
+				
+			
+					
+						
+			
+		
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+			BBA		
+				
+				
+				
+					
+			
+						
+						
+							
+						Read More
+		
+					
+		
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+			MCA		
+				
+				
+				
+					
+			
+						
+						
+							
+						Read More
+		
+					
+		
+				
+				
+						
+			
+		
+				
+			
+					
+						
+			
+		
+						
+			
+		
+						
+			
+		
+						
+			
+		
+				
+							
+							
+				
+				
+			
+					
+				
+				
+			Why PIMT?		
+				
+				
+				
+					
+							
+											
+													
+										1st AICTE approved Institute
+									
+								
+											
+													
+										Listed Under UGC 2[f]
+									
+								
+											
+													
+										Affiliated to IKG-PTU since 1997
+									
+								
+											
+													
+										24 Years of Educational Supremacy
+									
+								
+											
+													
+										Amongst Top 50 MCA Colleges in India
+									
+								
+											
+													
+										Rated A4 by AIMA & A+++ by Just Careers
+									
+								
+											
+													
+										Well Settled Students with Excellent Packages Abroad
+									
+								
+											
+													
+										Add on Online Courses from Reputed International Universities
+									
+						
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+			
+		
+				
+				
+				
+						
+				
+				
+			
+					
+				
+				
+			Get a Call Back		
+				
+				
+				
+					
+			
+			
+
+			
+								
+					Name				
+								
+					Email*				
+								
+					Your Phone				
+								
+					Course Interested*		
+			
+				Select Regular/Distance CourseB. Sc. AgricultureB. Sc. ATHMB.ComM. ComBBAMBABCAMCAMCA LEETBCA (Distance Education)BBA (Distance Education)B.Com (Distance Education)DCA (Distance Education)BCA LEET (Distance Education)			
+		
+						
+								
+					
+						
+															
+																										
+																						Submit
+													
+					
+				
+			
+		
+				
+				
+						
+			
+		
+						
+			
+		
+						
+			
+		
+						
+			
+		
+				
+						
+				
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+						
+			
+		
+						
+			
+		
+				
+						
+				
+				
+			
+					
+				
+				
+			OUR ACHIEVEMENTS		
+				
+						
+			
+		
+						
+			
+		
+				
+						
+				
+				
+			
+					
+				
+				
+					
+			
+						
+		
+				
+				
+				
+				
+					
+			
+				
+				0
+				+
+			
+							STUDENTS ENROLLED
+					
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+			
+						
+		
+				
+				
+				
+				
+					
+			
+				
+				0
+				+
+			
+							STAFF MEMBERS
+					
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+			
+						
+		
+				
+				
+				
+				
+					
+			
+				
+				0
+				%
+			
+							PLACEMENTS ASSISTANCE
+					
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+			
+						
+		
+				
+				
+				
+				
+					
+			
+				
+				0
+				
+			
+							INSTITUTIONS/SCHOOLS
+					
+				
+				
+						
+			
+		
+						
+			
+		
+				
+						
+				
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+						
+			
+		
+						
+			
+		
+				
+							
+							
+				
+				
+			
+					
+				
+				
+			CAMPUS LIFE		
+				
+				
+						
+				
+				
+			
+							
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+					ANNUAL ATHLETIC MEETIn order to develop physical rigor and integrity among the students, the institute organizes annual confirmation every year.Read more
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+					TT TOURNAMENTPIMT hosted three days Inter College Table Tennis tournament in association with IKG-PTU Jalandhar. Students from various&#8230;Read more
+				
+				
+						
+			
+		
+				
+			
+					
+				
+				
+					
+																					
+				
+				
+				
+				
+					SWACHH BHARAT ABHIYANSwachh Bharat Abhiyan is a mission led by the Government of India to make India clean. PIMT contributes to this noble mission on regular..Read more
+				
+				
+						
+			
+		
+						
+			
+		
+						
+			
+		
+						
+			
+		
+				
+						
+				
+				
+			
+					
+				
+				
+			GALLERY		
+				
+				
+				
+					
+			
+		
+			#gallery-1 {
+				margin: auto;
+			}
+			#gallery-1 .gallery-item {
+				float: left;
+				margin-top: 10px;
+				text-align: center;
+				width: 25%;
+			}
+			#gallery-1 img {
+				border: 2px solid #cfcfcf;
+			}
+			#gallery-1 .gallery-caption {
+				margin-left: 0;
+			}
+			/* see gallery_shortcode() in wp-includes/media.php */
+		
+		
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+		
+		
+				
+				
+				
+				
+					
+											
+															
+											
+				
+				
+						
+			
+		
+						
+			
+		
+				
+						
+				
+				
+			
+					
+				
+				
+			TESTIMONIALS
+		
+				
+				
+				
+					
+			
+				
+											
+									
+							
+					
+						If you are looking for a growing career and want to stand aloft the crowd then PIMT Alouris a perfect place for you. The world class facilities in the PIMT, had given me chance to empower myself in every aspect. PIMT environment is filled with positive vibes for not only Indian students, but anyone from the world can easily adapt to this place.					
+									
+						
+									
+						
+					
+								AnjaliMCA Student			
+		
+								
+											
+									
+							
+					
+						At the outset I thank the management of PIMT Alour for providing us a place where we can find an amalgamation of learning, fun, culture, lore, literature and many such life preaching activities. I am thankful to Training & Placement cell, for providing the platform to enhance my skills and an opportunity to showcase them.” I pray God to bless this college with Number one status which it really deserves.					
+									
+						
+									
+						
+					
+								Pawanpreet KaurMCA Student			
+		
+								
+											
+									
+							
+					
+						It was a great time we spent in PIMT Alour. PIMT has experienced & innovative faculty and campus environment is very positive. Training and placement department is continuously providing assistance regarding placements. PIMT has made the best efforts to provide all the facilities like cultural, technical, sports etc. The days which have been spent at PIMT are the golden days of my life and I will remember them for rest of my life.					
+									
+						
+									
+						
+					
+								Rameez Hussain NajarMCA Student			
+		
+								
+											
+									
+							
+					
+						Taking admission in PIMT Alour is like paying for an exclusive world tour. The college is comprised of different people from different nationalities which makes it a global community for diverse learning.					
+									
+						
+									
+						
+					
+								Achla RaniMCA Student			
+		
+								
+											
+									
+							
+					
+						PIMT Alour proved to be a pool of opportunities for me. It provides us with various platforms to showcase our abilities and skills and also helps us to learn all soft skills that are highly required. We get training on interview skills, communication skills, life skills, effective time management and many more. I wholeheartedly thank Training & Placement Cell for the constant support.					
+									
+						
+									
+						
+					
+								Junaid HussainwaniMCA Student			
+		
+								
+											
+									
+							
+					
+						PIMT Alour enabled me to crack high profile interviews in the corporate world. I learnt management concepts, principles and their application in real life through Project work, case studies and presentations etc in the lively classroom discussions. Mentorship provided by the senior faculty enthused confidence in dealing with issues that confront me on daily basis.					
+									
+						
+									
+						
+					
+								NainaMCA Student			
+		
+								
+											
+									
+							
+					
+						I spent three years at PIMT Alour and this has been an absolutely unforgettable period of my life. PIMT Alour Khanna is not only professional in teaching students, but is also good at taking care of students. I had a highly learning experience with the marvelous efforts of my teachers. Along with teaching my subjects they taught me to explore myself.
+
+					
+									
+						
+									
+						
+					
+								Umar SaleemMCA Student			
+		
+								
+											
+									
+							
+					
+						I am Manita Yadav from Rajasthan. I studied MCA (2014-2016) from Punjab Institute of management & Technology. I am sharing my honest experience. I was hosteller in PIMT. Food & facilities of hostel is very good and service and timing also suitable for students. Hostel’s warden was also supporting in case of sickness or any other emergency. Academic staff of PIMT is also very good and brilliant in terms of teaching. Dr. Manisha Gupta Director of PIMT is very helpful, motivated, dedicated inspiring and knowledgeable. Due to support and good teaching skills of PIMT staff, today I am well settled in a reputed organization. I am very much thankful to PIMT.
+
+					
+									
+						
+									
+						
+					
+								Manita YadavStudent			
+		
+								
+											
+									
+							
+					
+						“At a time when aggressive advertisements of colleges are portraying an exaggerated picture, I found this institution, charging reasonable fees and truly focused on quality of education, course content and their commitment to offer an industry exposure to the students via internships and placement in companies such as HCL, Sebiztech, Netmax, Nextgen Venturi.”					
+									
+						
+									
+						
+					
+								Gautam AroraStudent			
+		
+								
+											
+									
+							
+					
+						“I was already working with my father when I first decided to do my Management course. I thought, “Do I realty need to attend lectures for a course in business management along with work?” I would have to miss crucial hours of my work for 3 years to attend the course, which was really a very tough call for me. When I went for my first day I had a perception of typical classroom- type environment with a teacher speaking on and on and half of the class asleep. But I was completely wrong we were in an interactive smart and inspired environment. The assignments, exams and lectures by eminent speakers gave us great exposure and in depth guidance about the requirements of the industry.”					
+									
+						
+									
+						
+					
+								Shahbaz Ahmed DarStudent			
+		
+								
+											
+									
+							
+					
+						“I went to Punjab Institute of Management & Technology Mandi Gobindgarh for my graduation. Though there are many colleges in and around my place but I chose to be at PIMT and I’m glad that I took a right decision; It was a Fascinating experience. I appreciate the extra activities such as the Soft Skills Training Program, which was wonderful and has helped a lot. Their focus on practical skills gave me a head start on my practicum, helping me to get my job. I am very happy and satisfied with my college”					
+									
+						
+									
+						
+					
+								Angrej SinghStudent			
+		
+								
+									
+															
+																	
+		
+				
+				
+						
+			
+		
+						
+			
+		
+				
+						
+				
+				
+			
+					
+				
+				
+			OUR RECRUITERS		
+				
+				
+				
+					
+			
+							
+																
+						
+						Previous
+					
+					
+						
+						Next
+					
+									
+				
+				
+						
+			
+		
+						
+			
+		
+				
+						
+				
+				
+			
+					
+				
+				
+					Top Search Top MCA College in India, Best MCA College in India,  Top MBA College in Punjab, Best MCA College in Punjab, MCA College in Chandigarh, Best MBA Colleges in Punjab,MBA Colleges in Punjab, Best Commerce Colleges in Punjab, Best BSC Agriculture College in Punjab, Best Managment College, Best Institute for MBA, BBA Course, Top BCA Colleges in punjab, Top BSC Agriculture Colleges in punjab
+				
+				
+						
+			
+		
+						
+			
+		
+						
+			
+		
+		
+
+
+    
+    
+        
+    LOCATE US			
+
+		
+
+ 
+	
+   
+    ADMISSIONS			Contact No: +919356253002
++918196053007
+01765-254144
+Email: admissions@pimt.info
+
+		
+   
+    CORPORATE ADDRESS			Near GPS, Mandi Gobindgarh
+Village Alour, Khanna
+Punjab (INDIA)
+Contact No: +919356253002/
+8196053007
+Email: enquiry@pimt.info
+
+		
+  
+  
+    
+
+
+
+        	
+                
+                    	  2021 . Powered by ThinkNEXT Technologies Pvt. Ltd.               
+                           
+            
+        
+    
+        
+
+
+	
+
+				
+
+				
+
+		
+
+				
+			
+
+
+
+
+
+
+
+
+
+ .stm_sign_up_now .stm_sign_up_now_inner {
+    padding: 51px 67px 18px !important;}
+
+
+
+
+ Scholarship Form 
+  Register to get scholarship upto 100%  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+				
+
+				            
+			×            
+		
+	
+
+
+
+
+	
+
+				
+
+				            
+				Sorry			
+		
+
+		
+
+				
+			Under Process, Visit again Later
+		
+
+
+				
+
+				            
+			&#215;            
+		
+	
+
+
+	
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	
+	
+/*  */
+
+
+
+
+/*  */
+
+
+
+
+/*  */
+
+
+
+/*  */
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/pimt.in\/wp-admin\/admin-ajax.php","nonce":"d502831457","shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"delicious":{"title":"Delicious"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},
+"menu_cart":{"cart_page_url":"https:\/\/pimt.in","checkout_page_url":"https:\/\/pimt.in"},"facebook_sdk":{"lang":"en_US","app_id":""}};
+
+
+
+
+
+
+
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","downloadImage":"Download image"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.9.8","urls":{"assets":"https:\/\/pimt.in\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_lightbox_enable_counter":"yes","elementor_lightbox_enable_fullscreen":"yes","elementor_lightbox_enable_zoom":"yes","elementor_lightbox_enable_share":"yes","elementor_lightbox_title_src":"title","elementor_lightbox_description_src":"description"},"editorPreferences":[]},"post":{"id":3920,"title":"Punjab%20Institute%20of%20Management%20%26%20Technology","excerpt":"","featuredImage":false}};
+
+
+
+
