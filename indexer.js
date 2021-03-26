@@ -61,7 +61,18 @@ async function getLevel(){
     return result
 }
 
+async function getExcludedWords(){
+    var words=[]
+    var read_file = fs.readFileSync('strip.txt','utf-8')
+    words=read_file.split('\n')
+    return words;
+}
+
 function getHTMLText(sourceCode,tag){
+    var str = new RegExp("\<\\s*"+tag+"[^>]*>(.*?)<\\s*\/\\s*"+tag+">","g");
+    var test = sourceCode.search(str);
+    if(test==-1)
+        return ''
 
     const text = htmlToText(sourceCode,{wordwrap:130,baseElement:tag,
         tags:{
@@ -102,14 +113,11 @@ async function start(){
         var h6Words=h6.match(/\b(\w+)\b/g)
         var pWords=p.match(/\b(\w+)\b/g)
         var bodyWords=body.match(/\b(\w+)\b/g)
-        console.log(bodyWords.length,titleWords.length,pWords.length,h6Words.length,h5Words.length,h4Words.length,h3Words.length,h2Words.length,h1Words.length)
-
-
-
     }
 
     exit(0)
 
 }
 
+excludedWords=getExcludedWords()
 start();
