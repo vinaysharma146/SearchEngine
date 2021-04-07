@@ -53,6 +53,8 @@ async function getSourceCode(url){
     return sourceCode
 }
 
+excludedWords=[]
+getExcludedWords()
 
 async function getLevel(){
     let query = urlDetails.findOne({readTill:{$gte:0}}).sort('level')
@@ -65,11 +67,16 @@ async function getExcludedWords(){
     var words=[]
     var read_file = fs.readFileSync('strip.txt','utf-8')
     words=read_file.split('\n')
+    for (word of words){
+        excludedWords.push(word)
+    }
     return words;
 }
 
 function getHTMLText(sourceCode,tag){
     var str = new RegExp("\<\\s*"+tag+"[^>]*>(.*?)<\\s*\/\\s*"+tag+">","g");
+    if(!sourceCode)
+        return 0;
     var test = sourceCode.search(str);
     if(test==-1)
         return ''
@@ -84,40 +91,102 @@ function getHTMLText(sourceCode,tag){
 
 }
 
+async function updateCrawler(level,i,len){
+    let readTill=i+1
+    if(i==len-1)
+        readTill=-1
+    query  = urlDetails.updateOne({level:level},{$set:{readTill:readTill}})
+    result = await query.exec()
+}
+
+async function saveWords(rawWords,url,priority){
+
+    if(rawWords==null)
+        return;
+    words=[]
+    rawWords.forEach(word=>{
+        if(!excludedWords.includes(word))
+            words.push(word.toLowerCase())
+    })
+    for (word of words){
+        //console.log(word)
+        query = indexerDetails.find({word:word})
+        result = await query.exec()
+        //console.log(result)
+        if(result.length == 0){
+        //create new record
+
+            newIndexerDetails = new indexerDetails({
+                word:word,
+                info:[{url:url,priority:priority}]
+            })
+            await newIndexerDetails.save()
+        }
+        else{
+
+            const exists = await indexerDetails.findOne({word:word,"info.url":url,"info.priority":priority})
+            if(exists)
+                continue
+
+            let info = {url : url,priority: priority}
+            query = indexerDetails.updateOne({word:word}, {$push:{info:info}})
+            result = await query.exec()
+        }
+    }
+}
+
 async function start(){
 
     let levelDetails = await getLevel()
+    if(levelDetails==null){
+        console.log("Indexer Completed")
+        exit(0)
+    }
     let level = levelDetails.level
+    console.log(level)
     let url_list = levelDetails.url_list
     for(let i=0;i<url_list.length;i++)
     {
+        let priority=0;
         if(i<levelDetails.readTill)
             continue
         let sourceCode = await getSourceCode(url_list[i])
-        const title=getHTMLText(sourceCode,'title')
-        const h1=getHTMLText(sourceCode,'h1')
-        const h2=getHTMLText(sourceCode,'h2')
-        const h3=getHTMLText(sourceCode,'h3')
-        const h4=getHTMLText(sourceCode,'h4')
-        const h5=getHTMLText(sourceCode,'h5')
-        const h6=getHTMLText(sourceCode,'h6')
-        const p=getHTMLText(sourceCode,'p')
-        const body=getHTMLText(sourceCode,'body')
-        fs.writeFileSync('body.txt',body)
-        const titleWords = title.match(/\b(\w+)\b/g);
-        var h1Words=h1.match(/\b(\w+)\b/g)
-        var h2Words=h2.match(/\b(\w+)\b/g)
-        var h3Words=h3.match(/\b(\w+)\b/g)
-        var h4Words=h4.match(/\b(\w+)\b/g)
-        var h5Words=h5.match(/\b(\w+)\b/g)
-        var h6Words=h6.match(/\b(\w+)\b/g)
-        var pWords=p.match(/\b(\w+)\b/g)
-        var bodyWords=body.match(/\b(\w+)\b/g)
+        if(sourceCode) {
+            const title = getHTMLText(sourceCode, 'title')
+            const h1 = getHTMLText(sourceCode, 'h1')
+            const h2 = getHTMLText(sourceCode, 'h2')
+            const h3 = getHTMLText(sourceCode, 'h3')
+            const h4 = getHTMLText(sourceCode, 'h4')
+            const h5 = getHTMLText(sourceCode, 'h5')
+            const h6 = getHTMLText(sourceCode, 'h6')
+            const p = getHTMLText(sourceCode, 'p')
+            const body = getHTMLText(sourceCode, 'body')
+            fs.writeFileSync('body.txt', body)
+            const titleWords = title.match(/\b(\w+)\b/g);
+            var h1Words = h1.match(/\b(\w+)\b/g)
+            var h2Words = h2.match(/\b(\w+)\b/g)
+            var h3Words = h3.match(/\b(\w+)\b/g)
+            var h4Words = h4.match(/\b(\w+)\b/g)
+            var h5Words = h5.match(/\b(\w+)\b/g)
+            var h6Words = h6.match(/\b(\w+)\b/g)
+            var pWords = p.match(/\b(\w+)\b/g)
+            var bodyWords = body.match(/\b(\w+)\b/g)
+
+            await saveWords(titleWords, url_list[i], ++priority)
+            await saveWords(h1Words, url_list[i], ++priority)
+            await saveWords(h2Words, url_list[i], ++priority)
+            await saveWords(h3Words, url_list[i], ++priority)
+            await saveWords(h4Words, url_list[i], ++priority)
+            await saveWords(h5Words, url_list[i], ++priority)
+            await saveWords(h6Words, url_list[i], ++priority)
+            await saveWords(pWords, url_list[i], ++priority)
+            await saveWords(bodyWords, url_list[i], ++priority)
+        }
+
+        await updateCrawler(level,i,url_list.length)
     }
-
-    exit(0)
-
+    start();
 }
 
-excludedWords=getExcludedWords()
+
 start();
