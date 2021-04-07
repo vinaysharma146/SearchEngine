@@ -65,7 +65,7 @@ async function getLevel(){
 
 async function getExcludedWords(){
     var words=[]
-    var read_file = fs.readFileSync('strip.txt','utf-8')
+    var read_file = fs.readFileSync('Excluded Words.txt','utf-8')
     words=read_file.split('\n')
     for (word of words){
         excludedWords.push(word)
