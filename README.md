@@ -24,7 +24,7 @@ Project is created with:
 * Nodejs: v12.18.3
 * Mongodb: 4.4.0
 
-### Setup
+## Setup
 To run this project, install it locally using npm
 ```
 $ npm install
