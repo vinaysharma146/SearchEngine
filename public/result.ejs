@@ -1,0 +1,41 @@
+<html>
+    <title>
+        <%= query %> - Search Result
+    </title>
+    <body>
+        <a href="/"><button>Home</button></a>
+        <input type = "text" id = "search_query_input" value = "<%=query%>">
+        <button id = "search_button" value = "Search">Search</button>
+        <ul>
+        <% links.forEach(function(link){ %>
+            <li><a href = <%=link.url%>>    <%=link.url%>    </a></li>
+        <% }); %>
+        </ul>
+    </body>
+    <script>
+         search_button = document.getElementById("search_button")
+                search_query_input = document.getElementById("search_query_input")
+
+                search_query_input.addEventListener("keyup",function(event){
+
+                    if(event.keyCode == 13)
+                        search()
+
+                })
+
+                search_button.addEventListener("click",search)
+
+                function search(){
+                     search_query = search_query_input.value
+                     if(search_query){
+
+                         window.location = '/result?query='+search_query
+                     }
+                     else{
+                         alert("Search Something :)")
+                         search_query_input.focus()
+                     }
+
+                }
+    </script>
+</html>
