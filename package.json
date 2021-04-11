@@ -4,7 +4,7 @@
   "description": "Integrate_ Project_MCA",
   "main": "query_engine.js",
   "scripts": {
-    "start": "node query_engine.js"
+    "start": "start http://localhost:8000 && node query_engine.js"
   },
   "author": "Vinay,Phalesh,Khusboo",
   "license": "ISC",
