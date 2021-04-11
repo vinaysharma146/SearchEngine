@@ -28,5 +28,7 @@ Project is created with:
 To run this project, install it locally using npm
 ```
 $ npm install
+$ node crawler.js * Let it finish *
+$ node indexer.js * Let it finish *
 $ npm start
 ```
