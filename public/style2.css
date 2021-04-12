@@ -1,0 +1,38 @@
+
+
+
+#home-btn{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+#search_button{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+#search_query_input {
+
+    border-radius: 20px;
+    width: 500px;
+    height: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    outline: none;
+}
+
+ul li {
+    list-style-type: decimal;
+    text-transform: capitalize;
+
+}
+
+ul li a:visited{
+    color: #06c;
+}

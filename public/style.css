@@ -1,0 +1,46 @@
+
+
+#search_query_input{
+
+    border-radius: 20px;
+    width: 500px;
+    height: 35px;
+    align : center;
+    position: relative;
+    top: 45%;
+    left: 22%;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+#search_button{
+    width: 150px;
+    height: 35px;
+    position: relative;
+    top: 45%;
+    left: 22%;
+    border-radius: 20px;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+#home-btn{
+    width: 150px;
+    height: 35px;
+    position: relative;
+    top: 45%;
+    left: 22%;
+    border-radius: 20px;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+#logo{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 40%;
+}
