@@ -150,37 +150,44 @@ async function start(){
         let priority=0;
         if(i<levelDetails.readTill)
             continue
-        let sourceCode = await getSourceCode(url_list[i])
-        if(sourceCode) {
-            const title = getHTMLText(sourceCode, 'title')
-            const h1 = getHTMLText(sourceCode, 'h1')
-            const h2 = getHTMLText(sourceCode, 'h2')
-            const h3 = getHTMLText(sourceCode, 'h3')
-            const h4 = getHTMLText(sourceCode, 'h4')
-            const h5 = getHTMLText(sourceCode, 'h5')
-            const h6 = getHTMLText(sourceCode, 'h6')
-            const p = getHTMLText(sourceCode, 'p')
-            const body = getHTMLText(sourceCode, 'body')
-            fs.writeFileSync('body.txt', body)
-            const titleWords = title.match(/\b(\w+)\b/g);
-            var h1Words = h1.match(/\b(\w+)\b/g)
-            var h2Words = h2.match(/\b(\w+)\b/g)
-            var h3Words = h3.match(/\b(\w+)\b/g)
-            var h4Words = h4.match(/\b(\w+)\b/g)
-            var h5Words = h5.match(/\b(\w+)\b/g)
-            var h6Words = h6.match(/\b(\w+)\b/g)
-            var pWords = p.match(/\b(\w+)\b/g)
-            var bodyWords = body.match(/\b(\w+)\b/g)
+        try{
+            let sourceCode = await getSourceCode(url_list[i])
+            if(sourceCode) {
+                const title = getHTMLText(sourceCode, 'title')
+                const h1 = getHTMLText(sourceCode, 'h1')
+                const h2 = getHTMLText(sourceCode, 'h2')
+                const h3 = getHTMLText(sourceCode, 'h3')
+                const h4 = getHTMLText(sourceCode, 'h4')
+                const h5 = getHTMLText(sourceCode, 'h5')
+                const h6 = getHTMLText(sourceCode, 'h6')
+                const p = getHTMLText(sourceCode, 'p')
+                const body = getHTMLText(sourceCode, 'body')
+                fs.writeFileSync('body.txt', body)
+                const titleWords = title.match(/\b(\w+)\b/g);
+                var h1Words = h1.match(/\b(\w+)\b/g)
+                var h2Words = h2.match(/\b(\w+)\b/g)
+                var h3Words = h3.match(/\b(\w+)\b/g)
+                var h4Words = h4.match(/\b(\w+)\b/g)
+                var h5Words = h5.match(/\b(\w+)\b/g)
+                var h6Words = h6.match(/\b(\w+)\b/g)
+                var pWords = p.match(/\b(\w+)\b/g)
+                var bodyWords = body.match(/\b(\w+)\b/g)
 
-            await saveWords(titleWords, url_list[i], ++priority)
-            await saveWords(h1Words, url_list[i], ++priority)
-            await saveWords(h2Words, url_list[i], ++priority)
-            await saveWords(h3Words, url_list[i], ++priority)
-            await saveWords(h4Words, url_list[i], ++priority)
-            await saveWords(h5Words, url_list[i], ++priority)
-            await saveWords(h6Words, url_list[i], ++priority)
-            await saveWords(pWords, url_list[i], ++priority)
-            await saveWords(bodyWords, url_list[i], ++priority)
+                await saveWords(titleWords, url_list[i], ++priority)
+                await saveWords(h1Words, url_list[i], ++priority)
+                await saveWords(h2Words, url_list[i], ++priority)
+                await saveWords(h3Words, url_list[i], ++priority)
+                await saveWords(h4Words, url_list[i], ++priority)
+                await saveWords(h5Words, url_list[i], ++priority)
+                await saveWords(h6Words, url_list[i], ++priority)
+                await saveWords(pWords, url_list[i], ++priority)
+                await saveWords(bodyWords, url_list[i], ++priority)
+            }
+
+        }
+        catch{
+            console.log("Escape Sequence Err Continued")
+            continue
         }
 
         await updateCrawler(level,i,url_list.length)

@@ -24,7 +24,7 @@
     height: 35px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    outline: none;
+    outline: nonenpm;
 }
 
 ul li {
@@ -35,4 +35,5 @@ ul li {
 
 ul li a:visited{
     color: #06c;
+
 }

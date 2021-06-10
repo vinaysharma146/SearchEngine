@@ -37,19 +37,27 @@ var urlDetails = mongoose.model("url_details", url_schema, "url_details");
 // *****       Base URL  **********
 
 const baseUrl = ['https://www.chitkara.edu.in/']
+const required_url_base = ['https://www.chitkara.edu.in/','https://curin.chitkara.edu.in/']
 
 // *********************************
 
 
-exclude = [".ico", ".jpg", ".png", ".css", ".js", ".xml", ".php",'oembed','/feed','?p=']
+exclude = [".ico", ".jpg", ".png", ".css", ".js", ".xml", ".php",'oembed','/feed','?p=','.pdf','twitter','linkedin']
 
 async function checkLink(url) {
     for (x in exclude) {
         if (url.includes(exclude[x]))
             return false
     }
-    if (!url.includes(baseUrl[0]))
-        return false
+    var flag = 0;
+    for (i in required_url_base) {
+        if (url.includes(required_url_base[i])) {
+            flag = 1;
+            break;
+        }
+    }
+    if(flag==0)
+        return false;
 
     const query = urlDetails.find({url_list:url})
     const result = await query.exec()
@@ -171,7 +179,7 @@ async function start() {
 
     var completed = 0
     for(let i =0 ;i<currentLevelLinks.length;i++){
-
+try{
             await fetch(currentLevelLinks[i])
             .then(
                 async function(response){
@@ -187,12 +195,16 @@ async function start() {
                             }
                         await saveNextLevelLinks(url_list, level, completed)
                     })
-                });
+                });}
+      catch{
+            console.log("Error Occured But Continued")
+            continue;
+      }
     }
     if(completed == 1)
         start();
 }
 
-var maxExtractedUrl = 100
-var maxLevel = 3;
+var maxExtractedUrl = 1000
+var maxLevel = 7;
 start();
